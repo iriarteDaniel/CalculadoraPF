@@ -9,12 +9,15 @@
 <body>
 	<div id="cuerpo">
 		<div id="container">
-			<h1>Caluladora de Puntaje Final</h1>
-			<h2>Ingrese su porcentaje de PP </h2>
-			<input type="number" id="pp">
-			<button id="calcular">Calcular</button>
-			<p id="msg"></p>
-			<table id="notas">
+			<div id="encabezado">
+				<h1>Caluladora de Puntaje Final</h1>
+				<h2>Ingrese su porcentaje de PP </h2>
+				<input type="number" id="pp">
+				<button id="calcular">Calcular</button>
+				<p id="msg"></p>
+			</div>
+			<div id="tabla">
+				<table id="notas">
 				<tr>
 				    <th class="cabecera">Nota</th>
 				    <th class="cabecera">Porcentaje</th>
@@ -36,8 +39,9 @@
 				    <td id="nota5"></td>
 				</tr>
 			</table>
-		</div>
-		<p id="descripcion">Calcule el porcentaje necesario en su examen final para lograr su nota deseada</p>
+			</div>
+			<p id="descripcion">Calcule el porcentaje necesario en su examen final para lograr su nota deseada</p>
+		</div>	
 	</div>
 	<script src="script.js"></script>
 </body>

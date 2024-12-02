@@ -39,7 +39,7 @@ function calcularMin5(pp) {
 
 function calcularPF() {
 	ppValue = PP.value;
-
+	MSG.innerHTML = "";
 	if(ppValue<20){
 		MSG.innerHTML = "No hay examen :(";
 	}
