@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@media screen and (min-width: 400px) {
+body {
+    background: #f6f5f7;
+    font-family: 'Montserrat', sans-serif;
+    width: 90vw;
+    height: 90vh;
+    color: #3E363F;
+    display: flex;
+  	justify-content: flex-end;
+}
+
+
+#container {
+    width: 900px;
+    height: 700px;
+    text-align: center;
+    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+input {
+    width: 20%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #cad2c5;
+}
+
+#calcular {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 45px;
+    border-radius: 30px;
+    background-color: #9FA4C4;
+    border: 1px solid #9FA4C4;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 20ms ease-in;
+}
+
+#notas{
+	width: 500px;
+    height: 300px;
+    text-align: center;
+    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#descripcion {
+	align-self: flex-end;
+}

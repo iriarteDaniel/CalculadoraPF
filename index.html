@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="cuerpo">
+		<div id="container">
+			<h1>Caluladora de Puntaje Final</h1>
+			<h2>Ingrese su porcentaje de PP </h2>
+			<input type="number" id="pp">
+			<button id="calcular">Calcular</button>
+			<p id="msg"></p>
+			<table id="notas">
+				<tr>
+				    <th class="cabecera">Nota</th>
+				    <th class="cabecera">Porcentaje</th>
+				</tr>
+				<tr>
+				    <td>2</td>
+				    <td id="nota2"></td>
+				</tr>
+				<tr>
+				    <td>3</td>
+				    <td id="nota3"></td>
+				</tr>
+				<tr>
+				    <td>4</td>
+				    <td id="nota4"></td>
+				</tr>
+				<tr>
+				    <td>5</td>
+				    <td id="nota5"></td>
+				</tr>
+			</table>
+		</div>
+		<p id="descripcion">Calcule el porcentaje necesario en su examen final para lograr su nota deseada</p>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
