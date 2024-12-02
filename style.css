@@ -58,3 +58,7 @@ input {
 #descripcion {
 	align-self: flex-end;
 }
+
+.creditos{
+    font-size: 10px;
+}

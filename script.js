@@ -43,20 +43,20 @@ function calcularPF() {
 	if(ppValue<20){
 		MSG.innerHTML = "No hay examen :(";
 	}
-	if(ppValue>20 && ppValue<50){
+	if(ppValue>=20 && ppValue<50){
 		MSG.innerHTML = "Necesitas sacar 50% en recuperatorio para rendir el final";
 	}
 	if(ppValue>=50 && ppValue<60){
-		NOTA2.innerHTML = (60-0.4*ppValue)/0.6;
+		NOTA2.innerHTML = ((60-0.4*ppValue)/0.6).toFixed(2);
 		NOTA3.innerHTML = 70;
 		NOTA4.innerHTML = 81;
 		NOTA5.innerHTML = 91;
 	}
 	if (ppValue>=60) {
 		NOTA2.innerHTML = 60;
-		NOTA3.innerHTML = calcularMin3(ppValue);
-		NOTA4.innerHTML = calcularMin4(ppValue);
-		NOTA5.innerHTML = calcularMin5(ppValue);
+		NOTA3.innerHTML = calcularMin3(ppValue).toFixed(2);
+		NOTA4.innerHTML = calcularMin4(ppValue).toFixed(2);
+		NOTA5.innerHTML = calcularMin5(ppValue).toFixed(2);
 	}
 }
 
