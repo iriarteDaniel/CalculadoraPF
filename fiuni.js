@@ -1,12 +1,4 @@
-const PP = document.getElementById("pp");
-const BUTTON = document.getElementById("calcular");
-const NOTA2 = document.getElementById("nota2");
-const NOTA3 = document.getElementById("nota3");
-const NOTA4 = document.getElementById("nota4");
-const NOTA5 = document.getElementById("nota5");
-const MSG = document.getElementById("msg");
-let ppValue;
-
+//
 function calcularMin3(pp) {
 	if (pp<=70) {
 		return 70;
@@ -37,7 +29,7 @@ function calcularMin5(pp) {
 	return (91-0.4*pp)/0.6;
 }
 
-function calcularPF() {
+function calcularPFFiuni() {
 	ppValue = PP.value;
 	MSG.innerHTML = "";
 	if(ppValue<20){
@@ -59,6 +51,4 @@ function calcularPF() {
 		NOTA5.innerHTML = calcularMin5(ppValue).toFixed(2);
 	}
 }
-
-BUTTON.addEventListener("click", calcularPF);
 

@@ -9,13 +9,25 @@
 <body>
 	<div id="cuerpo">
 		<div id="container">
+			<h1>Caluladora de Puntaje Final</h1>
+			<div id="seleccion">
+				<select name="facultad" id="facultad">
+					<option value="default" selected>Elija su Facultad</option>
+					<option value="fiuni">Facultad de Ingenieria</option>
+  					<option value="cyt">Facultad de Ciencias y Tecnologia</option>
+  					<option value="facea">Facultad de Ciencias Economicas y Administrativas</option>
+  					<option value="medicina">Facultad de Medicina</option>
+  					<option value="huma">Facultad de Humanidades, Ciencias Sociales y Cultura Guarani
+  					</option>
+				</select>
+			</div>
 			<div id="encabezado">
-				<h1>Caluladora de Puntaje Final</h1>
 				<h2>Ingrese su porcentaje de PP </h2>
 				<input type="number" id="pp">
 				<button id="calcular">Calcular</button>
 				<p id="msg"></p>
 			</div>
+
 			<div id="tabla">
 				<table id="notas">
 				<tr>
@@ -39,12 +51,14 @@
 				    <td id="nota5"></td>
 				</tr>
 			</table>
+
 			</div>
 			<p id="descripcion">Calcule el porcentaje necesario en su examen final para lograr su nota deseada</p>
 			<p class="creditos">Hecho por </p>
 			<a href="https://www.instagram.com/daniel25asd/" class="creditos">Daniel Iriarte</a>
 		</div>	
 	</div>
-	<script src="script.js"></script>
+	<script src="main.js"></script>
+	<script src="fiuni.js"></script>
 </body>
 </html>

@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@media screen and (min-width: 600px){
+    #facultad {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 600px){
+    #facultad {
+        width: 90vw;
+    }
+}
 body {
     background: #f6f5f7;
     font-family: 'Montserrat', sans-serif;
@@ -61,4 +71,25 @@ input {
 
 .creditos{
     font-size: 10px;
+}
+
+#tabla{
+    visibility: hidden;
+}
+
+#encabezado {
+    visibility: hidden;
+}
+
+#facultad {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 45px;
+    border-radius: 30px;
+    background-color: #9FA4C4;
+    border: 1px solid #9FA4C4;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 20ms ease-in;
 }
