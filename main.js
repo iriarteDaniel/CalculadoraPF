@@ -30,5 +30,8 @@ BUTTON.addEventListener("click", (e) => {
 	case "fiuni":
 		calcularPFFiuni();
 		break;
+	case "fiuni":
+		calcularPFFiuni();
+		break;
 	}
 });
